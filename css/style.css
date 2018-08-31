@@ -1,5 +1,6 @@
-body{
-	font-family: arial, Helvetica, sans-serif;
+
+/*body starts*/
+body{font-family: arial, Helvetica, sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 	padding: 0;
@@ -215,7 +216,7 @@ footer p{
  	color: #ffffff;
  	font-size: bold;
  	margin-top: 0;
- 	width: 10%;
+ 	width: 20%;
  	font-family: Arial;
  }
 
@@ -223,6 +224,10 @@ footer p{
  #about{
  	margin-left: 20px;
  	width: 70%;
+ }
+
+ .coord{
+ 	margin-left: 20px;
  }
 
  
@@ -245,6 +250,8 @@ footer p{
 
 	}
 
+
+
 	
 
 .column{
@@ -259,4 +266,12 @@ footer p{
 	clear: both;
 	display: table;
 }
+
+/*contact section*/
+
+.contact{
+	margin-left:20px;
+}
+
+
 
