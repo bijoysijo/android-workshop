@@ -218,5 +218,45 @@ footer p{
  	width: 10%;
  	font-family: Arial;
  }
+
+ /*about.html*/
+ #about{
+ 	margin-left: 20px;
+ 	width: 70%;
+ }
+
+ 
+
+.c1{
+	height: 200px;
+		
+	}
+
+
+
+
+
+.c2{
+	height: 200px;
+	}
+
+	*{
+		box-sizing: border-box;
+
+	}
+
 	
+
+.column{
+	float: left;
+	width: 20%;
+	padding: 5px;
+
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
 
