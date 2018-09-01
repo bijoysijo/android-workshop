@@ -122,11 +122,11 @@ header a:hover{
 }
 
 #boxes .box{
-	float: left;
+	overflow: visible;
 	width: 100%;
 	padding: 10px;
-	margin-left: 450px;
-	margin-top: 30px;
+	float: center;
+	position: fixed;
 }
 
 /*footer section*/
@@ -276,15 +276,33 @@ footer p{
 
 /*media response*/
 
-#main{
-	width: 1500px;
-	margin: 0px auto;
-}
 
-@media screen and (max-width:1199px){
-	#main{
+
+@media(max-width: 768px){
+	header #branding, 
+	header nav, 
+	header nav li,
+	#caption .container,
+	#showcase .container,
+	#boxes .box,
+	footer{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	#queries button{
+		display:block
 		width:100%;
 	}
+
+	#queries form input[type="email"]{
+		width: 100%;
+
+	}
+	
+	
+	
 }
 
 
