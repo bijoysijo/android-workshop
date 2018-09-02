@@ -173,14 +173,16 @@ footer p{
  	padding: 15px;
  	width: 10%;
  	float: center;
- 	background-color: #FFFF00;
+ 	background-color: #F333FF;
  	color: #000000;
- 	text-decoration: none;
+ 	
  	font-size: 15px;
  	margin-left: 650px;
  	margin-top: 200px;
 
  }
+
+ 
 
  #register1{
  	min-height: 500px;
@@ -194,23 +196,33 @@ footer p{
  /*powered by section*/
  
 .power{
-	min-height: 400px;
+	min-height: 150px;
 	background: url('../images/white.jpg') no-repeat 0 -200px;
 
 }
 .p1{
-	height:20px;
-	width: 5%;
-	float: right;
-	margin-right: 400px;
-	margin-bottom: 60px;
+	height:200px;
+	
+	
 }
  .p2{
- 	height: 10px;
- 	width: 80%;
- 	margin-left: 150px;
-
+ 	height: 200px;
+ 	
+ 	
  }
+
+ .logo{
+	float: left;
+	width: 20%;
+	padding: 5px;
+}
+
+.logorow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
 
  .power h2{
  	padding: 10px;
@@ -256,12 +268,13 @@ footer p{
 
 	
 
+
 .column{
 	float: left;
 	width: 20%;
 	padding: 5px;
-
 }
+
 
 .row::after {
 	content: "";
@@ -290,6 +303,7 @@ footer p{
 		float: none;
 		text-align: center;
 		width: 100%;
+		box-sizing: border-box;
 	}
 
 	#queries button{
