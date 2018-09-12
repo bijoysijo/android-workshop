@@ -1,0 +1,132 @@
+body {
+font-family: Raleway, sans-serif;
+
+}
+
+h1 {
+  width: 100%;
+  font-weight: 300;
+  text-align: center;
+	font-size: 40px;
+	color: #D6B47E
+}
+
+h2 {
+  display: inline-block;
+  text-align: center;
+  background-color: #D6B47E;
+  padding: 3px 10px;
+  margin: 5px;
+  font-size: 1.75rem;
+  color: white;
+}
+
+.menu {
+  border: 2px solid;
+  text-align: center;
+  width: 200px;
+}
+
+button {
+  display: inline-block;
+  font-weight: 800;
+  background-color: yellow;
+  text-align: center;
+  padding: 15px 30px;
+}
+
+.text{
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.team{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.contact{
+  text-decoration: none;
+  font-size: 23px;
+  color: white;
+}
+
+.container {
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero {
+	background-image: url("../images/bg1.jpg");
+  background-size: cover;
+  min-width: 964px;
+  min-height: 422px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.supporting-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 45px 0 0 0;
+  min-width: 400px;
+}
+
+.supporting-container div {
+  background-size: cover;
+  min-width: 450px;
+  min-height: 345px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.upcoming {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/events.jpg");
+
+}
+
+.roast {
+	background-image: url("../images/back.jpg");
+}
+
+#footer {
+  text-align: center;
+  color: #D6B47E;
+  font-weight: 300;
+  width: 100%;
+  font-size: 1.25rem;
+}
+
+
+
+
+ /*contact.html*/
+
+
+#contact{
+  color: black;
+}
+
+/*about.html*/
+
+
+
+
+
+
+
+
+
+
+
+
+
